@@ -19,6 +19,7 @@ export default defineConfig({
     footer: 'Copyright © 2023 | Powered by wukong',
   },
   logo: '/logo/logo.svg',
+  base: '/Tools',
   // @ts-ignore
   exportStatic: false,
   publicPath: isDev ? '/' : './',
