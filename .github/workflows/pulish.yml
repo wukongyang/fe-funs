@@ -2,18 +2,21 @@ name: Deploy
  
 on:
   push:
-    branches:
-      - master
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+  workflow_dispatch:
  
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
-          cache: npm
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
       - run: npm install --frozen-lockfile
  
       - name: Build
@@ -22,5 +25,8 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs-dist
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          EXTERNAL_REPOSITORY: Wukongyang.github.io
+          PUBLISH_DIR: docs-dist
+          PUBLISH_BRANCH: master
+          commit_message: ${{ github.event.head_commit.message }}
