@@ -11,13 +11,12 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/checkout@v3
-        uses: actions/setup-node@v3
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
-          cache: 'npm'
-      - run: npm install --frozen-lockfile
+          node-version: 16
+          cache: npm
+      - run: npm install
  
       - name: Build
         run: npm run docs:build
