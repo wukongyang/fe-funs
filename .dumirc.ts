@@ -19,10 +19,9 @@ export default defineConfig({
     footer: 'Copyright © 2023 | Powered by wukong',
   },
   logo: '/logo/logo.svg',
-  base: '/',
   // @ts-ignore
   exportStatic: false,
-  publicPath: '/',
+  publicPath: isDev ? '/' : './',
   styles: [
     `.dumi-default-features-item {
       text-align: center;
