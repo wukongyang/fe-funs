@@ -22,7 +22,7 @@ export default defineConfig({
   base: '/Tools',
   // @ts-ignore
   exportStatic: false,
-  publicPath: isDev ? '/' : './',
+  publicPath: isDev ? '/' : 'https://wukongyang.github.io/Tools/',
   styles: [
     `.dumi-default-features-item {
       text-align: center;
