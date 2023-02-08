@@ -16,7 +16,7 @@ export default defineConfig({
       { title: '介绍', link: '/guide' },
       { title: '工具库', link: '/components/get-device' },
     ],
-    footer: 'Copyright © 2023 | Powered by Drpanda',
+    footer: 'Copyright © 2023 | Powered by wukong',
   },
   logo: '/logo/logo.svg',
   base: isDev ? '/' : '/common/tools',
