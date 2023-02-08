@@ -19,12 +19,10 @@ export default defineConfig({
     footer: 'Copyright © 2023 | Powered by wukong',
   },
   logo: '/logo/logo.svg',
-  base: isDev ? '/' : '/common/tools',
+  base: '/',
   // @ts-ignore
   exportStatic: false,
-  publicPath: isDev
-    ? '/'
-    : 'https://qd-cms-dev.oss-cn-qingdao.aliyuncs.com/common/tools/',
+  publicPath: '/',
   styles: [
     `.dumi-default-features-item {
       text-align: center;
