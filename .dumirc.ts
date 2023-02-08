@@ -4,9 +4,9 @@ const isDev = process.env.NODE_ENV === 'development';
 
 export default defineConfig({
   outputPath: 'docs-dist',
-  hash: true,
+  // hash: true,
   history: {
-    type: 'browser',
+    type: 'hash',
   },
   favicons: ['/logo/logo.svg'],
   metas: [{ name: 'theme-color', content: '#1677ff' }],
