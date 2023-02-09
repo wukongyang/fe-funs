@@ -8,7 +8,7 @@ export default defineConfig({
   history: {
     type: 'hash',
   },
-  favicons: ['/logo.svg'],
+  favicons: ['https://wukongyang.github.io/fe-funs/logo.svg'],
   metas: [{ name: 'theme-color', content: '#1677ff' }],
   themeConfig: {
     name: 'fe-funs',
@@ -18,7 +18,7 @@ export default defineConfig({
     ],
     footer: 'Copyright © 2023 | Powered by wukongyang',
   },
-  logo: '/logo.svg',
+  logo: 'https://wukongyang.github.io/fe-funs/logo.svg',
   base: '/',
   // @ts-ignore
   exportStatic: false,
