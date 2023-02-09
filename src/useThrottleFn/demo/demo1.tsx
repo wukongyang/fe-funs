@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react';
-import { useThrottleFn } from 'tools';
+import { useThrottleFn } from 'fe-funs';
 
 export default () => {
   const [value, setValue] = useState<string>();

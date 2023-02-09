@@ -14,7 +14,7 @@ group:
 ### API
 
 ```ts
-import { Regular } from 'tools';
+import { Regular } from 'fe-funs';
 
 // 手机号简单校验
 const phoneSimpleReg = Regular.getReg('phoneSimple');
@@ -49,7 +49,7 @@ const phoneSimpleReg = Regular.getReg('phoneSimple');
 ### API
 
 ```ts
-import { Regular } from 'tools';
+import { Regular } from 'fe-funs';
 // 校验手机号
 const mobile = '15680670753';
 Regular.testMobile(mobile);
@@ -71,7 +71,7 @@ Regular.testMobile(mobile);
 ### API
 
 ```ts
-import { Regular } from 'tools';
+import { Regular } from 'fe-funs';
 
 // 校验固定电话
 const phone = '0107111111';
@@ -94,7 +94,7 @@ Regular.testTelPhone(phone);
 ### API
 
 ```ts
-import { Regular } from 'tools';
+import { Regular } from 'fe-funs';
 
 // 校验邮箱
 const email = 'te-st@qq.com.cn';
@@ -116,7 +116,7 @@ Regular.testEmail(email);
 ### API
 
 ```ts
-import { Regular } from 'tools';
+import { Regular } from 'fe-funs';
 
 // 校验身份证号码
 const idCard = '110101190001011009';
@@ -139,7 +139,7 @@ Regular.testIdCard(idCard);
 ### API
 
 ```ts
-import { Regular } from 'tools';
+import { Regular } from 'fe-funs';
 
 // 校验中文
 const charCn = '你好';
@@ -169,7 +169,7 @@ Regular.testSpe(charSpe);
 ### API
 
 ```ts
-import { Regular } from 'tools';
+import { Regular } from 'fe-funs';
 
 // 校验身份证号码
 const url = 'www.baidu.com';

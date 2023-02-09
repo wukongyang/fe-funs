@@ -1,4 +1,4 @@
-import { useSafeState } from 'tools';
+import { useSafeState } from 'fe-funs';
 import React, { useEffect, useState } from 'react';
 
 const Child = () => {

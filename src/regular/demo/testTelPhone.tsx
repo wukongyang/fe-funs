@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Regular } from 'tools';
+import { Regular } from 'fe-funs';
 
 const App: React.FC = () => {
   const [telphone, setTelPhone] = useState<string>('0107111111');

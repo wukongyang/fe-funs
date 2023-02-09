@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { getUuid } from 'tools';
+import { getUuid } from 'fe-funs';
 
 const App: React.FC = () => {
   const [uuid, setUuid] = useState<string>('');

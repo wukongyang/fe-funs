@@ -1,10 +1,8 @@
-# tools
+# fe-funs
 
-组件库 dumi 文档: [https://d.umijs.org/](https://d.umijs.org/)
+线上文档地址：[https://wukongyang.github.io/fe-funs/#/](https://wukongyang.github.io/fe-funs/#/)
 
-组件库线上文档地址：[https://cms-dev.xiongmaoboshi.com/common/tools](https://cms-dev.xiongmaoboshi.com/common/tools)
-
-## tools 包目录规范
+## fe-funs 包目录规范
 
 ```text
 src

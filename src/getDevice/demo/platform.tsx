@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { DeviceInfoType, getDevice, PlatformType } from 'tools';
+import { DeviceInfoType, getDevice, PlatformType } from 'fe-funs';
 
 const App: React.FC = () => {
   const [platformType, setPlatformType] = useState<PlatformType>();

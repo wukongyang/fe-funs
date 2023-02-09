@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { getQuery } from 'tools';
+import { getQuery } from 'fe-funs';
 
 const App: React.FC = () => {
   const [url, setUrl] = useState<string>('http://test.com?test_key=test_value');

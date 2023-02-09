@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { useMemoizedFn } from 'tools';
+import { useMemoizedFn } from 'fe-funs';
 
 export default () => {
   const [count, setCount] = useState(0);

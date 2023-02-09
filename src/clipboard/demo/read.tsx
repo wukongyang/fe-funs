@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Clipboard } from 'tools';
+import { Clipboard } from 'fe-funs';
 
 const App: React.FC = () => {
   const [value, setValue] = useState<string>('');

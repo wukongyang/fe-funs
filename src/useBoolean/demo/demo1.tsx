@@ -7,7 +7,7 @@
  */
 
 import React from 'react';
-import { useBoolean } from 'tools';
+import { useBoolean } from 'fe-funs';
 
 export default () => {
   const [state, setTrue, setFalse ] = useBoolean(true);

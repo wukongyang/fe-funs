@@ -10,22 +10,22 @@
 ## 📦 安装
 
 ```bash
-$ npm install --save https://code.xiongmaoboshi.com/package/tools/tools-1.0.8.tgz
+$ npm install --save fe-funs
 # or
-$ yarn add https://code.xiongmaoboshi.com/package/tools/tools-1.0.8.tgz
+$ yarn add fe-funs
 ```
 
 ## 🔨 使用
 
 ```ts
-import { getDevice } from 'tools';
+import { getDevice } from 'fe-funs';
 ```
 
 ## 🤝 参与共建
 
 ```bash
-$ git clone git@git.100tal.com:panda-h5/tools.git
-$ cd tools
+$ git clone git@github.com:Wukongyang/fe-funs.git
+$ cd fe-funs
 $ npm i
 $ npm start
 ```
@@ -48,4 +48,4 @@ src
 
 ### 2、开发完成
 
-合并代码后推送到远程 master，会自动使用 wall-e 项目进行部署
+开发分支推送到远程，创建 PR 到 master 分支

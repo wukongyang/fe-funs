@@ -8,21 +8,21 @@ export default defineConfig({
   history: {
     type: 'hash',
   },
-  favicons: ['/logo/logo.svg'],
+  favicons: ['/logo.svg'],
   metas: [{ name: 'theme-color', content: '#1677ff' }],
   themeConfig: {
-    name: 'tools',
+    name: 'fe-funs',
     nav: [
       { title: '介绍', link: '/guide' },
       { title: '工具库', link: '/components/get-device' },
     ],
-    footer: 'Copyright © 2023 | Powered by wukong',
+    footer: 'Copyright © 2023 | Powered by wukongyang',
   },
-  logo: '/logo/logo.svg',
-  base: '/Tools',
+  logo: '/logo.svg',
+  base: '/',
   // @ts-ignore
   exportStatic: false,
-  publicPath: isDev ? '/' : 'https://wukongyang.github.io/Tools/',
+  publicPath: isDev ? '/' : 'https://wukongyang.github.io/fe-funs/',
   styles: [
     `.dumi-default-features-item {
       text-align: center;

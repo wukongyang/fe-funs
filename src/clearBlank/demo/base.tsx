@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { clearBlank } from 'tools';
+import { clearBlank } from 'fe-funs';
 
 const App: React.FC = () => {
   const [value, setValue] = useState<string>('');

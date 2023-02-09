@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { DeviceInfoType, getDevice, RuntimeType } from 'tools';
+import { DeviceInfoType, getDevice, RuntimeType } from 'fe-funs';
 
 const App: React.FC = () => {
   const [runtimeType, setRuntimeType] = useState<RuntimeType>();

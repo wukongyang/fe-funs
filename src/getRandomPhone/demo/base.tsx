@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { getRandomPhone } from 'tools';
+import { getRandomPhone } from 'fe-funs';
 
 const App: React.FC = () => {
   const [randomPhone, setRandomPhone] = useState<string>('');

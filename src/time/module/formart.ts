@@ -44,7 +44,7 @@ function format(
     };
     return transTime(opt, format);
   } catch (error) {
-    console.error('tools error', error);
+    console.error('fe-funs error', error);
     return '';
   }
 }

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Regular } from 'tools';
+import { Regular } from 'fe-funs';
 
 const App: React.FC = () => {
   const [url, setUrl] = useState<string>('www.baidu.com');

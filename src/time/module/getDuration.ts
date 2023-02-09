@@ -125,7 +125,7 @@ function getDuration(...params: any[]) {
     }
     return getBurnTime(time, format);
   } catch (error) {
-    console.error('tools error', error);
+    console.error('fe-funs error', error);
     return '';
   }
 }

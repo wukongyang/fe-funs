@@ -16,7 +16,7 @@ group:
 ### API
 
 ```ts
-import { getQuery } from 'tools';
+import { getQuery } from 'fe-funs';
 // 获取query参数
 const key = 'test_key';
 const url = 'http://test.com?test_key=test_value';

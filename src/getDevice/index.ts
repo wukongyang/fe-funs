@@ -24,7 +24,6 @@ export const enum RuntimeType {
   wework = 'wework',
   app = 'app',
   dingtalk = 'dingtalk',
-  yach = 'yach',
   browser = 'browser',
 }
 
@@ -42,7 +41,7 @@ type IGetDeviceMap<T extends keyof typeof DeviceInfoType> =
  * 获取设备信息
  * @device: 只区分pc和mobile
  * @platform: 区分手机类型，比如ios、xiaomi、huawei、oppo、vivo等，希望能持续更新，未匹配上直接返回android
- * @runtime: 只区分运行环境，wechat、app、safari、dingtalk(钉钉)、yach(知音楼)、other
+ * @runtime: 只区分运行环境，wechat、app、safari、dingtalk(钉钉)、other
  */
 export default function getDevice<T extends keyof typeof DeviceInfoType>(
   type: T,
@@ -95,8 +94,6 @@ export default function getDevice<T extends keyof typeof DeviceInfoType>(
         result = RuntimeType.app;
       } else if (/(dingtalk)/i.test(ua)) {
         result = RuntimeType.dingtalk;
-      } else if (/(yach|yachandroid|yachprod)/i.test(ua)) {
-        result = RuntimeType.yach;
       } else {
         result = RuntimeType.browser;
       }

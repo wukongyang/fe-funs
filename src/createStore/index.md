@@ -21,7 +21,7 @@ group:
 import { useState } from 'react';
 
 /** 1. 引入createStore */
-import { createStore } from 'tools';
+import { createStore } from 'fe-funs';
 
 /** 2. 定义各个原子化状态 */
 // user

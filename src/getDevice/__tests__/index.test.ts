@@ -13,19 +13,6 @@ test('device-Android-微信', () => {
   expect(getDevice('runtime')).toEqual(RuntimeType.wechat);
 });
 
-test('device-Android-知音楼', () => {
-  Object.defineProperty(window, 'navigator', {
-    writable: true,
-    value: {
-      userAgent:
-        'Mozilla/5.0 (Linux; Android 12; NX709J Build/SKQ1.220502.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/99.0.4844.88 Mobile Safari/537.36 AgentWeb/ UCBrowser/11.6.4.950 Yachlang/zh-CN Yachprod Yach/1.6.9.5 YachAndroid Yachprod',
-    },
-  });
-  expect(getDevice('device')).toEqual(DeviceType.mobile);
-  expect(getDevice('platform')).toEqual(PlatformType.android);
-  expect(getDevice('runtime')).toEqual(RuntimeType.yach);
-});
-
 test('device-Android-浏览器', () => {
   Object.defineProperty(window, 'navigator', {
     writable: true,

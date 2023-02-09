@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Regular } from 'tools';
+import { Regular } from 'fe-funs';
 
 const App: React.FC = () => {
   const [cn, setCn] = useState<string>('你好');

@@ -1,8 +1,8 @@
 ---
-title: 熊猫博士-前端函数库
+title: 前端常用函数库
 hero:
-  title: tools
-  description: 熊猫博士-前端函数工具库
+  title: fe-funs
+  description: 前端常用函数工具库
   actions:
     - text: 介绍
       link: /guide

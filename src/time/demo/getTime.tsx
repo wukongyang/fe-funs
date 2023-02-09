@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Time } from 'tools';
+import { Time } from 'fe-funs';
 
 const App: React.FC = () => {
   const [day, setDay] = useState<string>();

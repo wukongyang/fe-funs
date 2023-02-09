@@ -25,7 +25,7 @@ function getBurnNow(date: Date | string, mat?: string) {
     let time = Math.abs(new Date(date).getTime() - new Date().getTime()) / 1000;
     return getBurnTime(time, mat);
   } catch (error) {
-    console.error('tools error', error);
+    console.error('fe-funs error', error);
     return '';
   }
 }

@@ -1,8 +1,7 @@
 {
-  "name": "tools",
-  "version": "1.1.2",
-  "description": "tools",
-  "homepage": "https://Wukongyang.github.io/Tools",
+  "name": "fe-funs",
+  "version": "0.0.1",
+  "description": "前端常用工具函数",
   "license": "MIT",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -76,5 +75,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "authors": []
+  "authors": [
+    "wukongyang"
+  ]
 }

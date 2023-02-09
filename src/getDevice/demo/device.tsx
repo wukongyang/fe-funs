@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { DeviceInfoType, DeviceType, getDevice } from 'tools';
+import { DeviceInfoType, DeviceType, getDevice } from 'fe-funs';
 
 const App: React.FC = () => {
   const [deviceType, setDeviceType] = useState<DeviceType>();

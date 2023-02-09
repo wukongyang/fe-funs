@@ -18,7 +18,7 @@ group:
 ### API
 
 ```ts
-import { Time } from 'tools';
+import { Time } from 'fe-funs';
 // 获取当前时间
 const date: Date = new Date();
 // 获取格式化时间
@@ -47,7 +47,7 @@ const str: string = Time.format(timestamp);
 ### API
 
 ```ts
-import { Time } from 'tools';
+import { Time } from 'fe-funs';
 // 根据时长时间戳获取
 const timestamp = 86300000;
 const duration: string = Time.getDuration(timestamp, 'mm分钟ss秒');
@@ -82,7 +82,7 @@ const durationD: string = Time.getDuration(
 ### API
 
 ```ts
-import { Time } from 'tools';
+import { Time } from 'fe-funs';
 
 // 获取目标日期与现在的时长
 const date = '2023-01-15 12:36:26';
@@ -107,7 +107,7 @@ const burnNow: string = Time.getBurnNow(date, 'mm分钟ss秒');
 ### API
 
 ```ts
-import { Time } from 'tools';
+import { Time } from 'fe-funs';
 
 const timestamp = 86300000;
 const { day, hour, minutes, second } = Time.getTime(timestamp);
