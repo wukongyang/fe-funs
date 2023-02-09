@@ -11,7 +11,6 @@ export {
   RuntimeType,
 } from './getDevice';
 /** 通用API */
-// export { default as getIp } from './getIp';
 export { default as getQuery } from './getQuery';
 /** 随机方法 */
 export { default as getRandomPhone } from './getRandomPhone';
