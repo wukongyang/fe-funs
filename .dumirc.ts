@@ -21,6 +21,7 @@ export default defineConfig({
   logo: 'https://wukongyang.github.io/fe-funs/logo.svg',
   base: '/',
   // @ts-ignore
+  // test
   exportStatic: false,
   publicPath: isDev ? '/' : 'https://wukongyang.github.io/fe-funs/',
   styles: [
